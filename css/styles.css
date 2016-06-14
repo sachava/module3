@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -44,13 +48,29 @@ header div ul li {
 	font-weight: normal;
 }
 
+div.fdiv {
+	background-color: white;
+}
+
+.mdiv {
+	margin: 5px;
+	border: 1px solid black;
+	background-color: gray;
+}
+
 
 @media (max-width: 768px) {
 	.container-fluid div {
-	margin-left: 15px;
-	margin-right: 15px; 
+	margin-left: 10px;
+	margin-right: 10px; 
 }
 	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#third {
+		width: 100%;
+	}
+}
 
 
 body {
